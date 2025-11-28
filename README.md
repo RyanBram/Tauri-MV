@@ -1,7 +1,7 @@
 # **Tauri MV -** [**Part of Project Ace**](https://github.com/RyanBram/RPG-MV-Ace)
 
 **A next-generation, lightweight runtime for RPG Maker MV games.**
-!\[Tauri Window](https://raw.githubusercontent.com/RyanBram/Tauri-MV/refs/heads/main/docs/img/Tauri%20Initial%20Window.jpg)
+![Tauri Window](https://raw.githubusercontent.com/RyanBram/Tauri-MV/refs/heads/main/docs/img/Tauri%20Initial%20Window.jpg)
 
 **Tauri MV** is a specialized runner built with **Rust** and **Tauri**. It is designed as a secure, high-performance drop-in replacement for **NW.js**.
 
