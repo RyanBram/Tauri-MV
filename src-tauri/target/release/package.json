@@ -1,0 +1,11 @@
+{
+    "name": "Tauri",
+    "main": "index.html",
+    "window": {
+        "title": "RPG MV Ace",
+        "width": 960,
+        "height": 720,
+        "position": "center",
+        "icon": "icon/icon.png"
+    }
+}
