@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tauri</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .container {
+            text-align: center;
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        .logo {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 30px;
+            filter: drop-shadow(0 10px 30px rgba(0,0,0,0.5));
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #aaaaaa;
+            margin-bottom: 30px;
+        }
+        
+        .info {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .info p {
+            margin: 10px 0;
+            color: #cccccc;
+            font-size: 14px;
+        }
+        
+        .info strong {
+            color: #FFC131;
+        }
+        
+        .version {
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            font-size: 13px;
+            color: #666666;
+            opacity: 0.8;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/tauri.svg" alt="Tauri Logo" class="logo">
+        <h1>Tauri</h1>
+        <p class="subtitle">Universal HTML5 App Launcher</p>
+        
+        <div class="info">
+            <p><strong>No package.json found</strong></p>
+            <p>Place this executable in a game directory containing <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 3px;">package.json</code></p>
+        </div>
+    </div>
+    
+    <div class="version">
+        Tauri v2.1.1
+    </div>
+</body>
+</html>
