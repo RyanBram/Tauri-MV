@@ -1,5 +1,7 @@
 # **Tauri MV -** [**Part of Project Ace**](https://github.com/RyanBram/RPG-MV-Ace)
 
+_Tauri MV is on hold. The current active project is [Rover](https://github.com/RyanBram/Rover) and works like Tauri MV._
+
 **A next-generation, lightweight runtime for RPG Maker MV games.**
 ![Tauri Window](https://raw.githubusercontent.com/RyanBram/Tauri-MV/refs/heads/main/docs/img/Tauri%20Initial%20Window.jpg)
 
